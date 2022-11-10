@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 623px;
+    margin-top: -70px;
+  
+  }
+  
+  .contain {
+    position: relative;
+    width: 50%;
+    margin-left: 20px;
+  }
+  .contain3 {
+    position: relative;
+    width: 50%;
+    margin-left: 20px;
+  }
+  .contain4 {
+    position: relative;
+    width: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+  }
+  .contain4:hover .overlay {
+    width: 300px;
+    height: 300px;
+   
+  }
+  .img1 {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+  }
+  .overlay {
+    transition: .5s ease;
+  }
+  .contain:hover .overlay {
+    width: 300px;
+    height: 300px;
+  
+  }
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  P{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif ,
+  }
+  .contain2 {
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+  }
+  .img1 {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #395b64;
+    overflow: hidden;
+    width: 0;
+    height: 75%;
+    transition: .0.3s ease;
+    opacity: 98%;
+  }
+  .contain2:hover .overlay {
+    width: 300px;
+    height: 300px;
+   
+  }
+  .contain3:hover .overlay {
+    width: 300px;
+    height: 300px;
+  }
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  P{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif , 
+  }
+  .fixed{
+    background-image: url(https://www.moltobureau.com/upload/buco-cup.jpg);
+    background-attachment: fixed;
+      display: block;
+      background-repeat: no-repeat!important;
+      background-size: cover!important;
+      height: 400px;
+      width: 1350px;
+      object-fit: cover;
+      margin-top: 23px; 
+      
+    }
+    .fixed2{
+      background-image: url(http://cdn.shopify.com/s/files/1/0235/7817/articles/ne211217_1_1_thum.jpg?v=1639722718);
+      background-attachment: fixed;
+        display: block;
+        background-repeat: no-repeat!important;
+        background-size: cover!important;
+        height: 400px;
+        width: 1350px;
+        object-fit: cover;
+    
+      }
+    #banner{
+      margin: 100px ;
+      width: 334px;
+      height: px;
+      overflow: hidden;
+      margin-left: 0px;
+    }
+    #banner .img3{
+      width: 334px;
+      height: 223px;
+      object-fit: cover;
+      transform: translateX(0px);
+      transition: .3s ease-in-out;
+    }
+    #banner .img3:hover{
+      transform: translateX(50px);
+    }
+    .banner_1{
+      display: flex;
+    }
+    h1{
+      margin-left: 594px;
+      margin-bottom: -77px;
+      margin-top: 27px;
+      font-family: 'Montserrat', sans-serif;
+      FONT-SIZE: 1;
+      font-size: 23px;
+    }
+    a {
+      display: inline-block;
+    }
+    
+    img {
+      transition:  .0s ease;
+    }
+    
+    a:hover img {
+      opacity: 0;
+    }
+    
+    a:hover {
+      background: url("https://aides.az/uploads/images/team-members/team-i-62665962b3a0a.webp");
+    }
